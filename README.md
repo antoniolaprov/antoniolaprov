@@ -15,8 +15,8 @@ funcionando quando o dado muda.
 <p align="center">
   <a href="https://github.com/antoniolaprov/agroclima-analytics"><img src="assets/card-agroclima.svg" width="49%" alt="AgroClima Analytics"></a>
   <a href="https://github.com/antoniolaprov/finbrasil-analytics"><img src="assets/card-finbrasil.svg" width="49%" alt="FinBrasil Analytics"></a>
-  <a href="https://github.com/antoniolaprov/g17-iluminacao-inteligente"><img src="assets/card-iluminacao.svg" width="49%" alt="Iluminação inteligente"></a>
-  <a href="https://github.com/antoniolaprov/OdontoHub"><img src="assets/card-odontohub.svg" width="49%" alt="OdontoHub"></a>
+  <a href="https://github.com/antoniolaprov/Qix"><img src="assets/card-qix.svg" width="49%" alt="QIX"></a>
+  <a href="https://github.com/antoniolaprov/FlowCarreiras"><img src="assets/card-flowcarreiras.svg" width="49%" alt="Flow Carreiras"></a>
 </p>
 
 <details>
