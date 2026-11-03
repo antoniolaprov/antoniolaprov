@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="90" viewBox="0 0 1200 90" role="img" aria-label="">
+  <defs>
+    <linearGradient id="onda" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0b1f17"/><stop offset="1" stop-color="#0d1b2e"/></linearGradient>
+    <style>
+      .a { animation: move 9s linear infinite; }
+      .b { animation: move 14s linear infinite reverse; opacity: 0.55; }
+      @keyframes move { from { transform: translateX(0); } to { transform: translateX(-600px); } }
+    </style>
+  </defs>
+  <g class="b"><path fill="#5fd38d" fill-opacity="0.25" d="M0 46 Q150 20 300 46 T600 46 T900 46 T1200 46 T1500 46 T1800 46 V90 H0 Z"/></g>
+  <g class="a"><path fill="url(#onda)" d="M0 56 Q150 30 300 56 T600 56 T900 56 T1200 56 T1500 56 T1800 56 V90 H0 Z"/></g>
+</svg>

@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Antônio Laprovitera - Machine Learning e Dados">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1f17"/>
+      <stop offset="1" stop-color="#0d1b2e"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5fd38d" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#5fd38d" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linha" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7cc4ff"/>
+      <stop offset="1" stop-color="#5fd38d"/>
+    </linearGradient>
+    <clipPath id="cartao"><rect width="1200" height="320" rx="18"/></clipPath>
+    <clipPath id="digita"><rect class="digita" x="64" y="150" width="0" height="40"/></clipPath>
+    <style>
+      .nome { font: 700 54px "Segoe UI", Helvetica, Arial, sans-serif; fill: #f2f7f4; }
+      .sub { font: 500 22px "SFMono-Regular", Consolas, "Liberation Mono", monospace; fill: #5fd38d; }
+      .meta { font: 400 17px "Segoe UI", Helvetica, Arial, sans-serif; fill: #9fb3a8; }
+      .eixo { font: 400 12px "SFMono-Regular", Consolas, monospace; fill: #5d7468; }
+
+      .surge { opacity: 0; animation: surge 0.8s ease-out forwards; }
+      .d1 { animation-delay: 0.1s; } .d2 { animation-delay: 2.6s; } .d3 { animation-delay: 3s; }
+      @keyframes surge { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+      .digita { animation: digita 1.6s steps(35, end) 0.7s forwards; }
+      @keyframes digita { to { width: 466px; } }
+      .cursor { opacity: 0; animation: aparece 0s linear 0.7s forwards, anda 1.6s steps(35, end) 0.7s forwards,
+                pisca 0.9s steps(1) 2.3s infinite; }
+      @keyframes aparece { to { opacity: 1; } }
+      @keyframes anda { to { transform: translateX(466px); } }
+      @keyframes pisca { 0% { opacity: 1; } 50% { opacity: 0; } }
+
+      .chuva line { stroke: #7cc4ff; stroke-opacity: 0.28; stroke-width: 1.5; stroke-linecap: round;
+                    animation: cai 1.6s linear infinite; }
+      @keyframes cai { from { transform: translateY(-60px); } to { transform: translateY(360px); } }
+
+      .serie { stroke-dasharray: 900; stroke-dashoffset: 900; animation: desenha 2.4s ease-in-out 0.6s forwards; }
+      @keyframes desenha { to { stroke-dashoffset: 0; } }
+      .preenche { opacity: 0; animation: aparece 1.2s ease-out 2.6s forwards; }
+      .ponto { opacity: 0; animation: aparece 0.3s 2.9s forwards; }
+      .pulso { opacity: 0; transform-origin: 1080px 112px; animation: pulso 2s ease-out 3s infinite; }
+      @keyframes pulso { 0% { opacity: 0.7; transform: scale(1); } 100% { opacity: 0; transform: scale(3.2); } }
+
+      .barra { transform-box: fill-box; transform-origin: bottom; transform: scaleY(0);
+               animation: sobe 0.9s cubic-bezier(.2,.8,.2,1) forwards; }
+      @keyframes sobe { to { transform: scaleY(1); } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#cartao)">
+    <rect width="1200" height="320" fill="url(#fundo)"/>
+
+    <!-- chuva -->
+    <g class="chuva">
+      <line x1="40" y1="0" x2="34" y2="22" style="animation-delay:-0.2s"/>
+      <line x1="130" y1="0" x2="124" y2="22" style="animation-delay:-1.1s"/>
+      <line x1="215" y1="0" x2="209" y2="22" style="animation-delay:-0.6s"/>
+      <line x1="300" y1="0" x2="294" y2="22" style="animation-delay:-1.4s"/>
+      <line x1="390" y1="0" x2="384" y2="22" style="animation-delay:-0.3s"/>
+      <line x1="470" y1="0" x2="464" y2="22" style="animation-delay:-0.9s"/>
+      <line x1="560" y1="0" x2="554" y2="22" style="animation-delay:-1.3s"/>
+      <line x1="645" y1="0" x2="639" y2="22" style="animation-delay:-0.5s"/>
+      <line x1="730" y1="0" x2="724" y2="22" style="animation-delay:-1.0s"/>
+      <line x1="815" y1="0" x2="809" y2="22" style="animation-delay:-0.1s"/>
+      <line x1="900" y1="0" x2="894" y2="22" style="animation-delay:-0.8s"/>
+      <line x1="985" y1="0" x2="979" y2="22" style="animation-delay:-1.5s"/>
+      <line x1="1070" y1="0" x2="1064" y2="22" style="animation-delay:-0.4s"/>
+      <line x1="1150" y1="0" x2="1144" y2="22" style="animation-delay:-1.2s"/>
+      <line x1="85" y1="0" x2="79" y2="22" style="animation-delay:-0.75s;animation-duration:2.1s"/>
+      <line x1="345" y1="0" x2="339" y2="22" style="animation-delay:-1.7s;animation-duration:2.1s"/>
+      <line x1="605" y1="0" x2="599" y2="22" style="animation-delay:-0.35s;animation-duration:2.1s"/>
+      <line x1="860" y1="0" x2="854" y2="22" style="animation-delay:-1.25s;animation-duration:2.1s"/>
+      <line x1="1110" y1="0" x2="1104" y2="22" style="animation-delay:-0.95s;animation-duration:2.1s"/>
+    </g>
+
+    <!-- grafico: barras de chuva e linha de rendimento -->
+    <g transform="translate(0,0)">
+      <line x1="720" y1="250" x2="1140" y2="250" stroke="#2a3d35" stroke-width="1"/>
+      <g fill="#7cc4ff" fill-opacity="0.22">
+        <rect class="barra" x="732" y="196" width="22" height="54" style="animation-delay:0.20s"/>
+        <rect class="barra" x="768" y="172" width="22" height="78" style="animation-delay:0.28s"/>
+        <rect class="barra" x="804" y="210" width="22" height="40" style="animation-delay:0.36s"/>
+        <rect class="barra" x="840" y="160" width="22" height="90" style="animation-delay:0.44s"/>
+        <rect class="barra" x="876" y="226" width="22" height="24" style="animation-delay:0.52s"/>
+        <rect class="barra" x="912" y="182" width="22" height="68" style="animation-delay:0.60s"/>
+        <rect class="barra" x="948" y="168" width="22" height="82" style="animation-delay:0.68s"/>
+        <rect class="barra" x="984" y="200" width="22" height="50" style="animation-delay:0.76s"/>
+        <rect class="barra" x="1020" y="176" width="22" height="74" style="animation-delay:0.84s"/>
+        <rect class="barra" x="1056" y="164" width="22" height="86" style="animation-delay:0.92s"/>
+      </g>
+      <path class="preenche" fill="url(#area)"
+            d="M743 168 L779 150 L815 196 L851 132 L887 214 L923 146 L959 128 L995 170 L1031 136 L1067 116 L1080 112 L1080 250 L743 250 Z"/>
+      <path class="serie" fill="none" stroke="url(#linha)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"
+            d="M743 168 L779 150 L815 196 L851 132 L887 214 L923 146 L959 128 L995 170 L1031 136 L1067 116 L1080 112"/>
+      <circle class="pulso" cx="1080" cy="112" r="6" fill="#5fd38d"/>
+      <circle class="ponto" cx="1080" cy="112" r="6" fill="#5fd38d"/>
+      <text class="eixo surge d3" x="720" y="276">chuva no ciclo</text>
+      <text class="eixo surge d3" x="1140" y="276" text-anchor="end">anomalia prevista</text>
+    </g>
+
+    <!-- texto -->
+    <text class="nome surge d1" x="64" y="122">Antônio Laprovitera</text>
+    <g clip-path="url(#digita)">
+      <text class="sub" x="64" y="178" textLength="462" lengthAdjust="spacingAndGlyphs">&gt; machine learning · dados · python</text>
+    </g>
+    <rect class="cursor" x="66" y="158" width="11" height="24" fill="#5fd38d"/>
+    <text class="meta surge d2" x="64" y="232">Ciência da Computação · CESAR School · Recife</text>
+  </g>
+</svg>
