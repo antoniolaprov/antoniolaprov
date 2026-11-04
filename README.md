@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Antônio Laprovitera - machine learning, dados e Python">
+  <img src="assets/header.svg" width="100%" alt="Antônio Laprovitera - data analysis, fullstack development">
 </p>
 
 Estudante de Ciência da Computação na CESAR School, no 5º período. Trabalho com
